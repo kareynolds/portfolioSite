@@ -1,0 +1,210 @@
+/*Custom Style*/
+/*import google font Mont & lato*/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container.nomargin {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.padding {
+    padding: 80px 0;
+}
+
+.margin {
+    margin: 75px 0;
+}
+
+.title {
+    font-size: 6em;
+    font-family: 'Lato', sans-serif;
+    display: block;
+}
+
+hr.star {
+    margin: 25px auto 30px;
+    padding: 0p;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star:after {
+    color: gold;
+    content: "\2605";
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-size: 2.5em;
+    background-color: #ecf0f1;
+
+}
+
+
+
+/* Navigation Styling */
+
+.navbar {
+    background: #34495E;
+    padding: 20px;
+}
+.navbar .navbar-brand {
+    color: #ecf0f1;
+    font-size:  2.5em;
+    font-weight: 900;
+}
+
+.navbar .navbar-brand:hover {
+    color: gold;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ecf0f1;
+    font-size:  1.5em;
+
+}
+
+.navbar-inverse .navbar-nav>active>a,
+.navbar-inverse .navbar-nav>active>a:hover,
+.navbar-inverse .navbar-nav>active>a:focus,
+.navbar-inverse .navbar-nav>active>a {
+
+}
+
+
+
+
+        /* Navbar Styling */
+
+#header {
+    background: url(portfolioBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+     color: #34495e;
+     height: 100vh;
+}
+
+#header .icon {
+
+}
+
+#header .skills {
+    font-size: 2.75em;
+}
+
+#header hr.star:after {
+    color: gold;
+    background-color: #E2E7ED;
+
+}
+
+
+
+/*Down arrow Icon*/
+#header a:hover {
+
+}
+
+
+
+        /* WORK STYLING */
+
+#work {
+    color: #34495E;
+}
+
+#work img {
+
+}
+
+#work hr.star:after{
+    color: gold;
+    background-color: white;
+}
+
+#work .portfolio-item {
+    border-radius: 15px;
+    height: 300px;
+}
+
+/*Hover effect*/
+#work .portfolio-item img {
+    border-radius: 15px;
+    margin: 20px 0;
+    opacity: 1;
+    transition: all .3s;
+}
+
+#work .portfolio-item img:hover {
+    margin: 5px 0;
+    opacity: .7;
+
+}
+
+        /* CONTACT STYLING */
+#contact {
+    font-family: 'Lato', sans-serif;
+    color: #34495e;
+    background: #ecf0f1;
+}
+
+#contact h3 {
+
+}
+
+#contact.has-success .form-control,
+#contact .has-success .control-label {
+    border-color: #34495e;
+    color: #34495e;
+}
+
+#contact hr.star {
+
+
+}
+
+#contact hr.star:after {
+    color: gold;
+    background: #ecf0f1;
+
+}
+
+#contact .btn-social {
+    display: inline;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 45px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.socials {
+    list-style: none;
+    text-align: center;
+
+}
+
+
+#contact .btn-social i {
+    color: #34495e;
+    display: inline-block;
+}
+
+
+#contact .btn-primary:focus,
+#contact .btn-primary:hover {
+    background: #2c3e50;
+}
+
+#contact ul li {
+    margin: 20px 0;
+}
+
