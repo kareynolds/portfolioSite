@@ -75,7 +75,9 @@ hr.star:after {
 
 }
 
-
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: gold;
+}
 
 
         /* Navbar Styling */
@@ -89,9 +91,8 @@ hr.star:after {
      height: 100vh;
 }
 
-#header .icon {
 
-}
+
 
 #header .skills {
     font-size: 2.75em;
@@ -103,12 +104,6 @@ hr.star:after {
 
 }
 
-
-
-/*Down arrow Icon*/
-#header a:hover {
-
-}
 
 
 
@@ -138,6 +133,7 @@ hr.star:after {
     margin: 20px 0;
     opacity: 1;
     transition: all .3s;
+    border: 1px solid #ecf0f1;
 }
 
 #work .portfolio-item img:hover {
@@ -206,5 +202,13 @@ hr.star:after {
 
 #contact ul li {
     margin: 20px 0;
+}
+
+.email {
+    font-size: 25px;
+    font-weight: 900;
+    color: #34495e;
+    padding-bottom: 30px;
+    padding-top: 15px;
 }
 
