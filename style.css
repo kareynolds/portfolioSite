@@ -1,5 +1,33 @@
 /*Custom Style*/
 /*import google font Mont & lato*/
+
+
+@media screen and (max-width: 659px) {
+    .icon {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 612px) {
+    .title {
+        font-size: 50px !important;
+    }
+    .email {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .star {
+        background: #D9E0E4;
+    }
+
+    .portfolio-img {
+        width: 300px;
+        height: 225px;
+    }
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -68,12 +96,6 @@ hr.star:after {
 
 }
 
-.navbar-inverse .navbar-nav>active>a,
-.navbar-inverse .navbar-nav>active>a:hover,
-.navbar-inverse .navbar-nav>active>a:focus,
-.navbar-inverse .navbar-nav>active>a {
-
-}
 
 .navbar-inverse .navbar-nav>li>a:hover {
     color: gold;
@@ -149,19 +171,11 @@ hr.star:after {
     background: #ecf0f1;
 }
 
-#contact h3 {
-
-}
 
 #contact.has-success .form-control,
 #contact .has-success .control-label {
     border-color: #34495e;
     color: #34495e;
-}
-
-#contact hr.star {
-
-
 }
 
 #contact hr.star:after {
